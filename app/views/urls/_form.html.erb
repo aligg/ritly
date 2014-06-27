@@ -1,0 +1,9 @@
+<%= form_for @url do |f| %>
+	<fieldset>
+		<div class='fields'>
+			<%=f.label :url %>
+			<%= f.text_field :url %>
+		</div>
+	</fieldset>
+	<%=f.submit %>
+<% end %>
